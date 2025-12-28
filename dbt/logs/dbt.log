@@ -1,0 +1,31 @@
+[0m19:33:48.656418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10690bfb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079aa9f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079aa6c0>]}
+
+
+============================== 19:33:48.679900 | 58841cbf-9d41-4415-a56b-1a9e9380ef46 ==============================
+[0m19:33:48.679900 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:33:48.680218 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'log_path': 'logs', 'quiet': 'False', 'warn_error': 'None', 'target_path': 'None', 'introspect': 'True', 'debug': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'use_colors': 'True', 'static_parser': 'True', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/valarezaarezehgar/.dbt', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'no_print': 'None', 'invocation_command': 'dbt init moviedash', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'partial_parse': 'True', 'write_json': 'True', 'indirect_selection': 'eager'}
+[0m19:33:48.750077 [info ] [MainThread]: Creating dbt configuration folder at /Users/valarezaarezehgar/.dbt
+[0m19:33:48.751387 [debug] [MainThread]: Starter project path: /Users/valarezaarezehgar/Desktop/DataEngineeringExpert/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m19:33:48.756931 [info ] [MainThread]: 
+Your new dbt project "moviedash" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:33:48.757118 [info ] [MainThread]: Setting up your profile.
+[0m19:37:39.733993 [info ] [MainThread]: Profile moviedash written to /Users/valarezaarezehgar/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:37:39.977371 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 231.35982, "process_in_blocks": "0", "process_kernel_time": 0.39109, "process_mem_max_rss": "162988032", "process_out_blocks": "0", "process_user_time": 1.6895}
+[0m19:37:39.979316 [debug] [MainThread]: Command `dbt init` succeeded at 19:37:39.979119 after 231.36 seconds
+[0m19:37:39.980047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a0afc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a91a450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a927740>]}
+[0m19:37:39.980559 [debug] [MainThread]: Flushing usage events
+[0m19:37:40.285309 [debug] [MainThread]: An error was encountered while trying to flush usage events
