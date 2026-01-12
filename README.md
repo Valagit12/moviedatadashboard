@@ -3,7 +3,7 @@
 This project builds an end to end analytics pipeline on MovieLens. Raw CSV files land in S3, Snowflake stores the raw and modeled tables, dbt builds the clean analytics layer, and a public Streamlit dashboard reads only from a small set of marts.
 
 ## Public dashboard
-Live app: <PASTE_PUBLIC_STREAMLIT_URL_HERE>
+Live app: [https://moviedatadashboard-p5jdvl7ktdsptevwtk4xsf.streamlit.app/](https://moviedatadashboard-p5jdvl7ktdsptevwtk4xsf.streamlit.app/)
 
 ## Overarching architecture
 
