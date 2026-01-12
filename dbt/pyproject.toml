@@ -12,6 +12,4 @@ dependencies = [
     "snowflake-connector-python[pandas]>=3.18.0",
     "streamlit>=1.52.2",
 ]
-
-[tool.uv]
-package = false
+package-mode = false
