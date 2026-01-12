@@ -1,15 +1,19 @@
-[project]
+[tool.poetry]
 name = "movielens-dashboard"
 version = "0.1.0"
 description = "MovieLens dashboard on Snowflake with dbt + Streamlit"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "dbt-core>=1.11.2",
-    "dbt-snowflake==1.9.0",
-    "pandas>=2.3.3",
-    "python-dotenv>=1.2.1",
-    "snowflake-connector-python[pandas]>=3.18.0",
-    "streamlit>=1.52.2",
-]
 package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+dbt-core = ">=1.11.2"
+dbt-snowflake = "==1.9.0"
+pandas = ">=2.3.3"
+python-dotenv = ">=1.2.1"
+snowflake-connector-python = { version = ">=3.18.0", extras = ["pandas"] }
+streamlit = ">=1.52.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
